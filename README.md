@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Samachar | Grab your daily news bites
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Samachar is a web application built using ReactJS and newsapi.org API. It is a news application on which a user can read tons of news articles.
 
-## Available Scripts
+## Table Of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The Project](#the-project)
+  - [Screenshot](#screenshot)
+  - [Demo](#demo)
+- [Development](#development)
+  - [Tech Stack](#tech-stack)
+  - [What i learned](#what-i-learned)
+  - [Useful Resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### The Project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Samachar is a web application built using ReactJs and newsapi.org. A user can read articles on the app with sufficient meta-info about the article. User can choose a certain category to fetch articles the user wants to read. User can also search for particular article he has in mind.
 
-### `npm test`
+Front End of the project is built using ReactJS. All the components used are funtional based components. The Front End design of the project is fully-responsive.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+All the news is fetched from newsapi.org using free API. The project can only be used on localhost erver and will not work if deployed on web due to the restrictions put by newsapi.org for using the API.
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Samachar](./samachar.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project will not work if deployed on web. To use this project, clone this directory and install all the dependencies using package.json. Create a .env.local file in src directory and mention your newsapi.org APIKEY like this
 
-### `npm run eject`
+```
+REACT_APP_NEWS_API_KEY = <your-api-key>
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+then run `npm start` command to run the project.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Tech Stack
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- HTML5 markup
+- CSS custom properties
+- Bootstrap
+- Javascript
+- ReactJS Library
 
-## Learn More
+### What i learned
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I learned a lot of things working on this project. When i started this project i was learning ReactJS and this project helped me to get better at ReactJS.
+I learned to work with an external API.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Useful Resources
 
-### Code Splitting
+There were times when i got stuck on some things while working on this project, for which i took help from a few websites which was very much helpful for me. The websites that helped me the most are:
+- [StackOverflow](https://stackoverflow.com) for debugging and
+- [YouTube](https://youtube.com) for learning new things.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub - [@yash1699](https://github.com/yash1699)
+- LinkedIn - [@yash-verma-5a84641a9](https://linkedin.com/in/yash-verma-5a84641a9)
