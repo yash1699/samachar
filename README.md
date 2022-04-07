@@ -30,7 +30,7 @@ All the news is fetched from newsapi.org using free API. The project can only be
 
 ### Demo
 
-This project will not work if deployed on web. To use this project, clone this directory and install all the dependencies using package.json. Create a .env.local file in src directory and mention your newsapi.org APIKEY like this
+This project will not work if deployed on web. To use this project, clone this directory and install all the dependencies using package.json. Create a .env.local file in main directory and mention your newsapi.org APIKEY like this
 
 ```
 REACT_APP_NEWS_API_KEY = <your-api-key>
